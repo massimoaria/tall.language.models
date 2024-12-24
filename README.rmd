@@ -1,9 +1,7 @@
 ---
-title: "README"
+title: "Pre-Trained Annotation Models for Tall"
 output: github_document
 ---
-
-# Pre-Trained Annotation Models for Tall
 
 ## Overview
 

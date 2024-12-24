@@ -1,7 +1,5 @@
-README
+Pre-Trained Annotation Models for Tall
 ================
-
-# Pre-Trained Annotation Models for Tall
 
 ## Overview
 
