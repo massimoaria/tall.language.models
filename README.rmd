@@ -3,6 +3,15 @@ title: "Pre-Trained Annotation Models for Tall"
 output: github_document
 ---
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%",
+  dpi = 150
+)
+```
 
 ## Overview
 
@@ -271,7 +280,8 @@ langrepo <- function() {
 df <- langrepo()
 df$hub_page_link <- paste0('<a href="', df$hub_page_link, '" target="_blank">Link</a>')
 df %>% 
-  mutate(file = paste0(file,"-ud-2.15.udpipe")) %>%
+  mutate(file = paste0(file,"-ud-2.15.udpipe"),
+  language_name = tools::toTitleCase(gsub("_"," ",language_name))) %>%
   kable("markdown", col.names = c("Language", "Treebank", "Contributors", "Description", "File", "Link")) 
 
 ```
