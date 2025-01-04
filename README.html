@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+@font-face {
+font-family: octicons-link;
+src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+body {
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+color: #333;
+font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.6;
+word-wrap: break-word;
+}
+a {
+background-color: transparent;
+}
+a:active,
+a:hover {
+outline: 0;
+}
+strong {
+font-weight: bold;
+}
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+img {
+border: 0;
+}
+hr {
+box-sizing: content-box;
+height: 0;
+}
+pre {
+overflow: auto;
+}
+code,
+kbd,
+pre {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+input {
+color: inherit;
+font: inherit;
+margin: 0;
+}
+html input[disabled] {
+cursor: default;
+}
+input {
+line-height: normal;
+}
+input[type="checkbox"] {
+box-sizing: border-box;
+padding: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+td,
+th {
+padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+input {
+font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+color: #4078c0;
+text-decoration: none;
+}
+a:hover,
+a:active {
+text-decoration: underline;
+}
+hr {
+height: 0;
+margin: 15px 0;
+overflow: hidden;
+background: transparent;
+border: 0;
+border-bottom: 1px solid #ddd;
+}
+hr:before {
+display: table;
+content: "";
+}
+hr:after {
+display: table;
+clear: both;
+content: "";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 15px;
+margin-bottom: 15px;
+line-height: 1.1;
+}
+h1 {
+font-size: 30px;
+}
+h2 {
+font-size: 21px;
+}
+h3 {
+font-size: 16px;
+}
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 11px;
+}
+blockquote {
+margin: 0;
+}
+ul,
+ol {
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+ol ol,
+ul ol {
+list-style-type: lower-roman;
+}
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+list-style-type: lower-alpha;
+}
+dd {
+margin-left: 0;
+}
+code {
+font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+pre {
+margin-top: 0;
+margin-bottom: 0;
+font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.select::-ms-expand {
+opacity: 0;
+}
+.octicon {
+font: normal normal normal 16px/1 octicons-link;
+display: inline-block;
+text-decoration: none;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.octicon-link:before {
+content: '\f05c';
+}
+.markdown-body:before {
+display: table;
+content: "";
+}
+.markdown-body:after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body>*:first-child {
+margin-top: 0 !important;
+}
+.markdown-body>*:last-child {
+margin-bottom: 0 !important;
+}
+a:not([href]) {
+color: inherit;
+text-decoration: none;
+}
+.anchor {
+display: inline-block;
+padding-right: 2px;
+margin-left: -18px;
+}
+.anchor:focus {
+outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 1em;
+margin-bottom: 16px;
+font-weight: bold;
+line-height: 1.4;
+}
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
+color: #000;
+vertical-align: middle;
+visibility: hidden;
+}
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+text-decoration: none;
+}
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
+visibility: visible;
+}
+h1 {
+padding-bottom: 0.3em;
+font-size: 2.25em;
+line-height: 1.2;
+border-bottom: 1px solid #eee;
+}
+h1 .anchor {
+line-height: 1;
+}
+h2 {
+padding-bottom: 0.3em;
+font-size: 1.75em;
+line-height: 1.225;
+border-bottom: 1px solid #eee;
+}
+h2 .anchor {
+line-height: 1;
+}
+h3 {
+font-size: 1.5em;
+line-height: 1.43;
+}
+h3 .anchor {
+line-height: 1.2;
+}
+h4 {
+font-size: 1.25em;
+}
+h4 .anchor {
+line-height: 1.2;
+}
+h5 {
+font-size: 1em;
+}
+h5 .anchor {
+line-height: 1.1;
+}
+h6 {
+font-size: 1em;
+color: #777;
+}
+h6 .anchor {
+line-height: 1.1;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+margin-top: 0;
+margin-bottom: 16px;
+}
+hr {
+height: 4px;
+padding: 0;
+margin: 16px 0;
+background-color: #e7e7e7;
+border: 0 none;
+}
+ul,
+ol {
+padding-left: 2em;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+li>p {
+margin-top: 16px;
+}
+dl {
+padding: 0;
+}
+dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+dl dd {
+padding: 0 16px;
+margin-bottom: 16px;
+}
+blockquote {
+padding: 0 15px;
+color: #777;
+border-left: 4px solid #ddd;
+}
+blockquote>:first-child {
+margin-top: 0;
+}
+blockquote>:last-child {
+margin-bottom: 0;
+}
+table {
+display: block;
+width: 100%;
+overflow: auto;
+word-break: normal;
+word-break: keep-all;
+}
+table th {
+font-weight: bold;
+}
+table th,
+table td {
+padding: 6px 13px;
+border: 1px solid #ddd;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+background-color: #f8f8f8;
+}
+img {
+max-width: 100%;
+box-sizing: content-box;
+background-color: #fff;
+}
+code {
+padding: 0;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin: 0;
+font-size: 85%;
+background-color: rgba(0,0,0,0.04);
+border-radius: 3px;
+}
+code:before,
+code:after {
+letter-spacing: -0.2em;
+content: "\00a0";
+}
+pre>code {
+padding: 0;
+margin: 0;
+font-size: 100%;
+word-break: normal;
+white-space: pre;
+background: transparent;
+border: 0;
+}
+.highlight {
+margin-bottom: 16px;
+}
+.highlight pre,
+pre {
+padding: 16px;
+overflow: auto;
+font-size: 85%;
+line-height: 1.45;
+background-color: #f7f7f7;
+border-radius: 3px;
+}
+.highlight pre {
+margin-bottom: 0;
+word-break: normal;
+}
+pre {
+word-wrap: normal;
+}
+pre code {
+display: inline;
+max-width: initial;
+padding: 0;
+margin: 0;
+overflow: initial;
+line-height: inherit;
+word-wrap: normal;
+background-color: transparent;
+border: 0;
+}
+pre code:before,
+pre code:after {
+content: normal;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font-size: 11px;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.pl-c {
+color: #969896;
+}
+.pl-c1,
+.pl-s .pl-v {
+color: #0086b3;
+}
+.pl-e,
+.pl-en {
+color: #795da3;
+}
+.pl-s .pl-s1,
+.pl-smi {
+color: #333;
+}
+.pl-ent {
+color: #63a35c;
+}
+.pl-k {
+color: #a71d5d;
+}
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+color: #183691;
+}
+.pl-v {
+color: #ed6a43;
+}
+.pl-id {
+color: #b52a1d;
+}
+.pl-ii {
+background-color: #b52a1d;
+color: #f8f8f8;
+}
+.pl-sr .pl-cce {
+color: #63a35c;
+font-weight: bold;
+}
+.pl-ml {
+color: #693a17;
+}
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+color: #1d3e81;
+font-weight: bold;
+}
+.pl-mq {
+color: #008080;
+}
+.pl-mi {
+color: #333;
+font-style: italic;
+}
+.pl-mb {
+color: #333;
+font-weight: bold;
+}
+.pl-md {
+background-color: #ffecec;
+color: #bd2c00;
+}
+.pl-mi1 {
+background-color: #eaffea;
+color: #55a532;
+}
+.pl-mdr {
+color: #795da3;
+font-weight: bold;
+}
+.pl-mo {
+color: #1d3e81;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.task-list-item {
+list-style-type: none;
+}
+.task-list-item+.task-list-item {
+margin-top: 3px;
+}
+.task-list-item input {
+margin: 0 0.35em 0.25em -1.6em;
+vertical-align: middle;
+}
+:checked+.radio-label {
+z-index: 1;
+position: relative;
+border-color: #4078c0;
+}
+.sourceLine {
+display: inline-block;
+}
+code .kw { color: #000000; }
+code .dt { color: #ed6a43; }
+code .dv { color: #009999; }
+code .bn { color: #009999; }
+code .fl { color: #009999; }
+code .ch { color: #009999; }
+code .st { color: #183691; }
+code .co { color: #969896; }
+code .ot { color: #0086b3; }
+code .al { color: #a61717; }
+code .fu { color: #63a35c; }
+code .er { color: #a61717; background-color: #e3d2d2; }
+code .wa { color: #000000; }
+code .cn { color: #008080; }
+code .sc { color: #008080; }
+code .vs { color: #183691; }
+code .ss { color: #183691; }
+code .im { color: #000000; }
+code .va {color: #008080; }
+code .cf { color: #000000; }
+code .op { color: #000000; }
+code .bu { color: #000000; }
+code .ex { color: #000000; }
+code .pp { color: #999999; }
+code .at { color: #008080; }
+code .do { color: #969896; }
+code .an { color: #008080; }
+code .cv { color: #008080; }
+code .in { color: #008080; }
+</style>
+<style>
+body {
+box-sizing: border-box;
+min-width: 200px;
+max-width: 980px;
+margin: 0 auto;
+padding: 45px;
+padding-top: 0px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="pre-trained-annotation-models-for-tall">Pre-Trained Annotation
+Models for Tall</h1>
+<h2 id="overview">Overview</h2>
+<p><strong>TALL - <em>Text Analysis for ALL</em></strong> (<a href="https://github.com/massimoaria/tall">https://github.com/massimoaria/tall</a>)
+is an R Shiny application that provides a comprehensive suite of
+methodologies for various text analysis tasks. It is designed to meet
+the needs of researchers who may lack extensive programming skills,
+offering a versatile and user-friendly tool for analyzing textual data.
+With TALL, users can apply a wide range of text analysis techniques,
+making it easier to extract valuable insights from textual data in an
+efficient and accessible manner.</p>
+<p><strong>TALL</strong> leverages the <code>udpipe</code> library for
+preprocessing, tokenization, lemmatization, and parsing of raw texts.
+The <code>udpipe</code> R package allows users to easily tokenize, tag,
+lemmatize, and perform dependency parsing on texts in multiple languages
+by providing convenient access to pre-trained annotation models.
+Built-in udpipe models are based on Universal Dependencies (UD) version
+2.5 and had not been updated in some time.</p>
+<p>This repository, <code>udpipe.models</code>, provides updated
+pre-trained NLP language models, trained on gold standard annotated
+corpora from the <a href="https://universaldependencies.org/">Universal
+Dependencies</a> (UD) project, version 2.15, using the
+<code>udpipe</code> R package (<a href="https://CRAN.R-project.org/package=udpipe">CRAN link</a>).</p>
+<p>The models are intended for use in Natural Language Processing (NLP)
+tasks, including tokenization, parsing, and tagging. This repository
+serves as a resource for researchers and developers working with TALL
+(<a href="https://github.com/massimoaria/tall">Tall GitHub
+repository</a>).</p>
+<h2 id="purpose">Purpose</h2>
+<p>The primary objectives of this repository are:</p>
+<ul>
+<li>To provide updated pre-trained <code>udpipe</code> models for a wide
+range of languages, aligned with the latest version of the UD corpora
+(2.15).</li>
+<li>To facilitate reproducible NLP research and applications by making
+these models readily available.</li>
+<li>To support projects that use Universal Dependencies data for
+tokenization, parsing, and tagging tasks in R and other
+environments.</li>
+</ul>
+<h2 id="data-source">Data Source</h2>
+<p>The gold standard annotated corpora used to train these models are
+sourced from the Universal Dependencies project (<a href="https://github.com/UniversalDependencies">Universal Dependencies
+GitHub repository</a>).</p>
+<p>Universal Dependencies is a community-driven initiative that offers
+high-quality annotated corpora in the standardized CoNLL-U format for
+many languages. The models in this repository are trained specifically
+on data from version 2.15.</p>
+<h2 id="pre-trained-models">Pre-Trained Models</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Language</th>
+<th align="left">Treebank</th>
+<th align="left">Contributors</th>
+<th align="left">Description</th>
+<th align="left">File</th>
+<th align="left">Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">afrikaans</td>
+<td align="left">afribooms</td>
+<td align="left">Peter Dirix, Liesbeth Augustinus, Daniel van
+Niekerk</td>
+<td align="left">UD Afrikaans-AfriBooms is a conversion of the AfriBooms
+Dependency Treebank, originally annotated with a simplified PoS set and
+dependency relations according to a subset of the Stanford tag set. The
+corpus consists of public government documents.</td>
+<td align="left">af_afribooms-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/af_afribooms/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">ancient_greek</td>
+<td align="left">perseus</td>
+<td align="left">Giuseppe G. A. Celano, Daniel Zeman</td>
+<td align="left">This Universal Dependencies Ancient Greek Treebank
+consists of an automatic</td>
+<td align="left">grc_perseus-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/grc_perseus/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">arabic</td>
+<td align="left">padt</td>
+<td align="left">Daniel Zeman, Zdeněk Žabokrtský, Shadi Saleh</td>
+<td align="left">The Arabic-PADT UD treebank is based on the</td>
+<td align="left">ar_padt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ar_padt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">armenian</td>
+<td align="left">armtdp</td>
+<td align="left">Marat M. Yavrumyan</td>
+<td align="left">A Universal Dependencies treebank for Eastern Armenian
+developed for UD originally by the ArmTDP team led by Marat M. Yavrumyan
+at the Yerevan State University.</td>
+<td align="left">hy_armtdp-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/hy_armtdp/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">basque</td>
+<td align="left">bdt</td>
+<td align="left">Maria Jesus Aranzabe, Aitziber Atutxa, Kepa Bengoetxea,
+Arantza Diaz de Ilarraza, Iakes Goenaga, Koldo Gojenola, Larraitz
+Uria</td>
+<td align="left">The Basque UD treebank is based on an automatic
+conversion from part of the Basque Dependency Treebank (BDT), created at
+the University of the Basque Country by the IXA NLP research group. The
+treebank consists of 8,993 sentences (121,443 tokens) and covers mainly
+literary and journalistic texts.</td>
+<td align="left">eu_bdt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/eu_bdt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">belarusian</td>
+<td align="left">hse</td>
+<td align="left">Olga Lyashevskaya, Angelika Peljak-Łapińska, Daria
+Petrova, Yana Shishkina</td>
+<td align="left">The Belarusian UD treebank is based on a sample of the
+news texts included in the Belarusian-Russian parallel subcorpus of the
+Russian National Corpus.</td>
+<td align="left">be_hse-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/be_hse/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">bulgarian</td>
+<td align="left">btb</td>
+<td align="left">Kiril Simov, Petya Osenova, Martin Popel</td>
+<td align="left">UD_Bulgarian-BTB is based on the HPSG-based
+BulTreeBank.</td>
+<td align="left">bg_btb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/bg_btb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">catalan</td>
+<td align="left">ancora</td>
+<td align="left">Héctor Martínez Alonso, Elena Pascual, Daniel
+Zeman</td>
+<td align="left">Catalan data from the <a href="http://clic.ub.edu/corpus/">AnCora</a> corpus.</td>
+<td align="left">ca_ancora-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ca_ancora/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">chinese</td>
+<td align="left">gsdsimp</td>
+<td align="left">Peng Qi, Koichi Yasuoka</td>
+<td align="left">Simplified Chinese Universal Dependencies dataset
+converted from the GSD (traditional) dataset with manual
+corrections.</td>
+<td align="left">zh_gsdsimp-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/zh_gsdsimp/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">croatian</td>
+<td align="left">set</td>
+<td align="left">Željko Agić, Nikola Ljubešić, Daniel Zeman</td>
+<td align="left">The Croatian UD treebank is based on the extension of
+the SETimes-HR corpus, the <a href="http://hdl.handle.net/11356/1183">hr500k</a> corpus.</td>
+<td align="left">hr_set-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/hr_set/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">czech</td>
+<td align="left">cac</td>
+<td align="left">Barbora Hladká, Daniel Zeman</td>
+<td align="left">The UD_Czech-CAC treebank is based on the Czech
+Academic Corpus 2.0 (CAC).</td>
+<td align="left">cs_cac-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/cs_cac/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">danish</td>
+<td align="left">ddt</td>
+<td align="left">Anders Johannsen, Héctor Martínez Alonso, Barbara
+Plank</td>
+<td align="left">The Danish UD treebank is a conversion of the Danish
+Dependency Treebank.</td>
+<td align="left">da_ddt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/da_ddt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">dutch</td>
+<td align="left">lassysmall</td>
+<td align="left">Gosse Bouma, Gertjan van Noord</td>
+<td align="left">This corpus contains sentences from the Wikipedia
+section of the Lassy Small Treebank.</td>
+<td align="left">nl_lassysmall-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/nl_lassysmall/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">english</td>
+<td align="left">ewt</td>
+<td align="left">Natalia Silveira, Timothy Dozat, Christopher Manning,
+Sebastian Schuster, Ethan Chi, John Bauer, Miriam Connor,
+Marie-Catherine de Marneffe, Nathan Schneider, Sam Bowman, Hanzhi Zhu,
+Daniel Galbraith, John Bauer</td>
+<td align="left">A Gold Standard Universal Dependencies Corpus for
+English.</td>
+<td align="left">en_ewt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/en_ewt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">english</td>
+<td align="left">gum</td>
+<td align="left">Siyao Peng, Amir Zeldes</td>
+<td align="left">Universal Dependencies syntax annotations from the GUM
+corpus (<a href="https://gucorpling.org/gum/">https://gucorpling.org/gum/</a>).</td>
+<td align="left">en_gum-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/en_gum/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">english</td>
+<td align="left">lines</td>
+<td align="left">Lars Ahrenberg</td>
+<td align="left">UD English_LinES is the English half of the LinES
+Parallel Treebank.</td>
+<td align="left">en_lines-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/en_lines/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">english</td>
+<td align="left">partut</td>
+<td align="left">Cristina Bosco, Manuela Sanguinetti</td>
+<td align="left">UD_English-ParTUT is a conversion of a multilingual
+parallel treebank developed at the University of Turin.</td>
+<td align="left">en_partut-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/en_partut/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">estonian</td>
+<td align="left">edt</td>
+<td align="left">Kadri Muischnek, Kaili Müürisep, Tiina Puolakainen,
+Andriela Rääbis, Liisi Torga</td>
+<td align="left">UD Estonian is a converted version of the Estonian
+Dependency Treebank (EDT), originally annotated in the Constraint
+Grammar (CG) annotation scheme, and consisting of genres of fiction,
+newspaper texts and scientific texts. The treebank contains 30,972
+trees, 437,769 tokens.</td>
+<td align="left">et_edt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/et_edt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">finnish</td>
+<td align="left">tdt</td>
+<td align="left">Filip Ginter, Jenna Kanerva, Veronika Laippala, Niko
+Miekka, Anna Missilä, Stina Ojala, Sampo Pyysalo</td>
+<td align="left">UD_Finnish-TDT is based on the Turku Dependency
+Treebank (TDT), a broad-coverage dependency treebank of general Finnish
+covering numerous genres.</td>
+<td align="left">fi_tdt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/fi_tdt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">french</td>
+<td align="left">gsd</td>
+<td align="left">Marie-Catherine de Marneffe, Bruno Guillaume, Ryan
+McDonald, Alane Suhr, Joakim Nivre, Matias Grioni, Carly Dickerson, Guy
+Perrier</td>
+<td align="left">The <strong>UD_French-GSD</strong> was converted in
+2015 from the content head version of the universal.</td>
+<td align="left">fr_gsd-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/fr_gsd/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">galician</td>
+<td align="left">ctg</td>
+<td align="left">Xavier Gómez Guinovart</td>
+<td align="left">The Galician UD treebank is based on the automatic
+parsing of the Galician Technical Corpus (<a href="http://sli.uvigo.gal/CTG">http://sli.uvigo.gal/CTG</a>) created at
+the University of Vigo by the TALG NLP research group.</td>
+<td align="left">gl_ctg-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/gl_ctg/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">german</td>
+<td align="left">gsd</td>
+<td align="left">Slav Petrov, Wolfgang Seeker, Ryan McDonald, Joakim
+Nivre, Daniel Zeman, Adriane Boyd</td>
+<td align="left">The German UD is converted from the content head
+version of the universal.</td>
+<td align="left">de_gsd-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/de_gsd/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">greek</td>
+<td align="left">gdt</td>
+<td align="left">Prokopis Prokopidis</td>
+<td align="left">The Greek UD treebank (UD_Greek-GDT) is derived from
+the Greek Dependency Treebank.</td>
+<td align="left">el_gdt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/el_gdt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">hebrew</td>
+<td align="left">htb</td>
+<td align="left">Yoav Goldberg, Reut Tsarfaty, Amir More, Shoval Sadde,
+Victoria Basmov, Yuval Pinter</td>
+<td align="left">A Universal Dependencies Corpus for Hebrew.</td>
+<td align="left">he_htb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/he_htb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">hindi</td>
+<td align="left">hdtb</td>
+<td align="left">Riyaz Ahmad Bhat, Daniel Zeman</td>
+<td align="left">The Hindi UD treebank is based on the Hindi Dependency
+Treebank (HDTB).</td>
+<td align="left">hi_hdtb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/hi_hdtb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">hungarian</td>
+<td align="left">szeged</td>
+<td align="left">Richárd Farkas, Katalin Simkó, Zsolt Szántó, Viktor
+Varga, Veronika Vincze</td>
+<td align="left">The Hungarian UD treebank is derived from the Szeged
+Dependency Treebank (Vincze et al. 2010).</td>
+<td align="left">hu_szeged-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/hu_szeged/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">indonesian</td>
+<td align="left">gsd</td>
+<td align="left">Ryan McDonald, Joakim Nivre, Daniel Zeman, Septina Dian
+Larasati, Ika Alfina</td>
+<td align="left">The Indonesian-GSD treebank was originally converted
+from the content head version of the universal dependency treebank
+v2.0.</td>
+<td align="left">id_gsd-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/id_gsd/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">irish</td>
+<td align="left">idt</td>
+<td align="left">Teresa Lynn, Jennifer Foster, Sarah McGuinness, Abigail
+Walsh, Jason Phelan, Kevin Scannell</td>
+<td align="left">A Universal Dependencies 4910-sentence treebank for
+modern Irish.</td>
+<td align="left">ga_idt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ga_idt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">italian</td>
+<td align="left">isdt</td>
+<td align="left">Cristina Bosco, Alessandro Lenci, Simonetta Montemagni,
+Maria Simi</td>
+<td align="left">The Italian corpus annotated according to the UD
+annotation scheme was obtained by conversion from ISDT.</td>
+<td align="left">it_isdt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/it_isdt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">italian</td>
+<td align="left">postwita</td>
+<td align="left">Cristina Bosco, Manuela Sanguinetti</td>
+<td align="left">PoSTWITA-UD is a collection of Italian tweets annotated
+in Universal Dependencies that can be exploited for the training of NLP
+systems to enhance their performance on social media texts.</td>
+<td align="left">it_postwita-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/it_postwita/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">korean</td>
+<td align="left">kaist</td>
+<td align="left">Jinho Choi, Na-Rae Han, Jena Hwang, Jayeol Chun</td>
+<td align="left">The KAIST Korean Universal Dependency Treebank is
+generated by Chun et al., 2018.</td>
+<td align="left">ko_kaist-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ko_kaist/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">latin</td>
+<td align="left">ittb</td>
+<td align="left">Marco Passarotti, Marinella Testori, Daniel Zeman,
+Berta González Saavedra, Flavio Massimiliano Cecchini</td>
+<td align="left">Latin data from the <em>Index Thomisticus</em>
+Treebank.</td>
+<td align="left">la_ittb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/la_ittb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">latvian</td>
+<td align="left">lvtb</td>
+<td align="left">Lauma Pretkalniņa, Laura Rituma, Gunta
+Nešpore-Bērzkalne, Baiba Saulīte, Artūrs Znotiņš, Normunds Grūzītis</td>
+<td align="left">Latvian UD Treebank is based on Latvian Treebank
+(LVTB).</td>
+<td align="left">lv_lvtb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/lv_lvtb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">lithuanian</td>
+<td align="left">alksnis</td>
+<td align="left">Andrius Utka, Erika Rimkutė, Agnė Bielinskienė, Jolanta
+Kovalevskaitė, Loïc Boizou, Gabrielė Aleksandravičiūtė, Kristina
+Brokaitė, Daniel Zeman, Natalia Perkova, Bernadeta Griciūtė</td>
+<td align="left">The Lithuanian dependency treebank ALKSNIS v3.0
+(Vytautas Magnus University).</td>
+<td align="left">lt_alksnis-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/lt_alksnis/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">maltese</td>
+<td align="left">mudt</td>
+<td align="left">Slavomír Čéplö, Daniel Zeman</td>
+<td align="left">MUDT (Maltese Universal Dependencies Treebank) is a
+manually annotated treebank of Maltese.</td>
+<td align="left">mt_mudt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/mt_mudt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">marathi</td>
+<td align="left">ufal</td>
+<td align="left">Vinit Ravishankar</td>
+<td align="left">UD Marathi is a manually annotated treebank consisting
+primarily of stories from Wikisource.</td>
+<td align="left">mr_ufal-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/mr_ufal/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">north_sami</td>
+<td align="left">giella</td>
+<td align="left">Trond Trosterud, Lene Antonsen, Francis Tyers</td>
+<td align="left">This is a North Sámi treebank based on a manually
+disambiguated and function-labelled gold-standard.</td>
+<td align="left">sme_giella-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/sme_giella/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">norwegian</td>
+<td align="left">bokmaal</td>
+<td align="left">Lilja Øvrelid, Fredrik Jørgensen, Petter Hohle, Ingerid
+Løyning Dale, Per Erik Solberg, Andre Kåsen</td>
+<td align="left">The Norwegian UD treebank is based on the Bokmål
+section of the Norwegian.</td>
+<td align="left">no_bokmaal-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/no_bokmaal/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">old_church_slavonic</td>
+<td align="left">proiel</td>
+<td align="left">Dag Haug</td>
+<td align="left">The Old Church Slavonic (OCS) UD treebank is based on
+canonical Old Church Slavonic data from the PROIEL and TOROT
+treebanks.</td>
+<td align="left">cu_proiel-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/cu_proiel/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">persian</td>
+<td align="left">seraji</td>
+<td align="left">Mojgan Seraji, Filip Ginter, Joakim Nivre, Martin
+Popel, Daniel Zeman</td>
+<td align="left">The Persian Universal Dependency Treebank (Seraji) is
+based on Uppsala Persian Dependency Treebank (UPDT).</td>
+<td align="left">fa_seraji-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/fa_seraji/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">polish</td>
+<td align="left">pdb</td>
+<td align="left">Alina Wróblewska, Daniel Zeman, Jan Mašek, Rudolf
+Rosa</td>
+<td align="left">The Polish PDB-UD treebank is automatically converted
+from the Polish Dependency Bank 2.0.</td>
+<td align="left">pl_pdb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/pl_pdb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">portuguese</td>
+<td align="left">gsd</td>
+<td align="left">Alexandre Rademaker, Ryan McDonald, Joakim Nivre,
+Daniel Zeman, Fabricio Chalub, Carlos Ramisch, Juan Belieni, Vanessa
+Berwanger Wille, Rodrigo Pintucci</td>
+<td align="left">The Brazilian Portuguese UD is converted from the
+Google Universal Dependency.</td>
+<td align="left">pt_gsd-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/pt_gsd/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">romanian</td>
+<td align="left">nonstandard</td>
+<td align="left">Cătălina Mărănduc, Cenel-Augusto Perez, Victoria
+Bobicev, Cătălin Mititelu, Florinel Hociung, Valentin Roșca, Roman
+Untilov, Petru Rebeja</td>
+<td align="left">The Romanian Non-standard UD treebank (called
+UAIC-RoDia) is based on UAIC-RoDia Treebank.</td>
+<td align="left">ro_nonstandard-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ro_nonstandard/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">romanian</td>
+<td align="left">rrt</td>
+<td align="left">Verginica Barbu Mititelu, Elena Irimia, Cenel-Augusto
+Perez, Radu Ion, Radu Simionescu, Martin Popel</td>
+<td align="left">The Romanian UD treebank (called RoRefTrees) (Barbu
+Mititelu et al., 2016) is the reference treebank in UD format for
+standard Romanian.</td>
+<td align="left">ro_rrt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ro_rrt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">russian</td>
+<td align="left">syntagrus</td>
+<td align="left">Kira Droganova, Olga Lyashevskaya, Daniel Zeman</td>
+<td align="left">Russian data from the SynTagRus corpus.</td>
+<td align="left">ru_syntagrus-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ru_syntagrus/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">scottish_gaelic</td>
+<td align="left">arcosg</td>
+<td align="left">Colin Batchelor</td>
+<td align="left">A treebank of Scottish Gaelic based on the.</td>
+<td align="left">gd_arcosg-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/gd_arcosg/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">serbian</td>
+<td align="left">set</td>
+<td align="left">Tanja Samardžić, Nikola Ljubešić</td>
+<td align="left">The Serbian UD treebank is based on the <a href="http://hdl.handle.net/11356/1200">SETimes-SR</a> corpus.</td>
+<td align="left">sr_set-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/sr_set/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">slovak</td>
+<td align="left">snk</td>
+<td align="left">Katarína Gajdošová, Mária Šimková, Daniel Zeman</td>
+<td align="left">The Slovak UD treebank is based on data originally
+annotated as part of the.</td>
+<td align="left">sk_snk-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/sk_snk/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">slovenian</td>
+<td align="left">ssj</td>
+<td align="left">Kaja Dobrovoljc, Tomaž Erjavec, Simon Krek</td>
+<td align="left">The SSJ treebank is the reference UD treebank for
+Slovenian.</td>
+<td align="left">sl_ssj-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/sl_ssj/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">spanish</td>
+<td align="left">ancora</td>
+<td align="left">Héctor Martínez Alonso, Daniel Zeman</td>
+<td align="left">Spanish data from the <a href="http://clic.ub.edu/corpus/">AnCora</a> corpus.</td>
+<td align="left">es_ancora-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/es_ancora/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">swedish</td>
+<td align="left">talbanken</td>
+<td align="left">Joakim Nivre, Aaron Smith, Victor Norrman</td>
+<td align="left">The Swedish-Talbanken treebank is based on Talbanken, a
+treebank developed at Lund University.</td>
+<td align="left">sv_talbanken-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/sv_talbanken/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">tamil</td>
+<td align="left">ttb</td>
+<td align="left">Loganathan Ramasamy, Daniel Zeman</td>
+<td align="left">The UD Tamil treebank is based on the Tamil Dependency
+Treebank created at the.</td>
+<td align="left">ta_ttb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ta_ttb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">telugu</td>
+<td align="left">mtg</td>
+<td align="left">Taraka Rama, Sowmya Vajjala</td>
+<td align="left">The Telugu UD treebank is created in UD based on manual
+annotations of sentences from a grammar book.</td>
+<td align="left">te_mtg-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/te_mtg/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">turkish</td>
+<td align="left">imst</td>
+<td align="left">Utku Türk, Şaziye Betül Özateş, Büşra Marşan, Salih
+Furkan Akkurt, Çağrı Çöltekin, Gülşen Cebiroğlu Eryiğit, Memduh
+Gökırmak, Hüner Kaşıkara, Umut Sulubacak, Francis Tyers</td>
+<td align="left">The UD Turkish Treebank, also called the IMST-UD
+Treebank, is a semi-automatic conversion of the IMST Treebank.</td>
+<td align="left">tr_imst-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/tr_imst/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">ukrainian</td>
+<td align="left">iu</td>
+<td align="left">Natalia Kotsyba, Bohdan Moskalevskyi, Mykhailo
+Romanenko</td>
+<td align="left">Gold standard Universal Dependencies corpus for
+Ukrainian.</td>
+<td align="left">uk_iu-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/uk_iu/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">urdu</td>
+<td align="left">udtb</td>
+<td align="left">Riyaz Ahmad Bhat, Daniel Zeman</td>
+<td align="left">The Urdu Universal Dependency Treebank was
+automatically converted from Urdu Dependency Treebank (UDTB).</td>
+<td align="left">ur_udtb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ur_udtb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">uyghur</td>
+<td align="left">udt</td>
+<td align="left">Marhaba Eli, Daniel Zeman, Francis Tyers</td>
+<td align="left">The Uyghur UD treebank is based on the Uyghur
+Dependency Treebank (UDT).</td>
+<td align="left">ug_udt-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/ug_udt/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="even">
+<td align="left">vietnamese</td>
+<td align="left">vtb</td>
+<td align="left">Lương Nguyễn Thị, Linh Hà Mỹ, Phương Lê Hồng, Huyền
+Nguyễn Thị Minh</td>
+<td align="left">The Vietnamese UD treebank is a conversion of the
+constituent treebank created in the VLSP project.</td>
+<td align="left">vi_vtb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/vi_vtb/index.html" target="_blank">Link</a></td>
+</tr>
+<tr class="odd">
+<td align="left">wolof</td>
+<td align="left">wtb</td>
+<td align="left">Bamba Dione</td>
+<td align="left">UD_Wolof-WTB is a natively manual developed treebank
+for Wolof.</td>
+<td align="left">wo_wtb-ud-2.15.udpipe</td>
+<td align="left"><a href="https://universaldependencies.org/treebanks/wo_wtb/index.html" target="_blank">Link</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="structure">Structure</h2>
+<p>The repository is organized as follows:</p>
+<ul>
+<li><strong><code>2.15/</code></strong>: Contains pre-trained
+<code>udpipe</code> models for individual languages. Each model file is
+named according to the corresponding language and the version of the
+Universal Dependencies data used.</li>
+<li><strong><code>README.rmd</code></strong>: This document provides an
+overview of the repository’s contents and purpose.</li>
+</ul>
+<h2 id="using-the-models">Using the Models</h2>
+<p>To use these models, simply install <strong>TALL</strong>, which will
+automatically handle the downloading of the pre-trained model required
+for analyzing your corpus.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># Install the remotes package if not already installed (uncomment the next line removing #)</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="co"># install.packages(&quot;remotes&quot;)</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;massimoaria/tall&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a><span class="fu">library</span>(tall)</span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a><span class="fu">tall</span>()</span></code></pre></div>
+
+</body>
+</html>
