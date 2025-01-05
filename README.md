@@ -1,4 +1,4 @@
-Pre-Trained Annotation Models for Tall
+Pre-Trained Annotation Models for TALL
 ================
 
 ## Overview
@@ -117,6 +117,12 @@ on data from version 2.15.
 | Uyghur | udt | Marhaba Eli, Daniel Zeman, Francis Tyers | The Uyghur UD treebank is based on the Uyghur Dependency Treebank (UDT). | ug_udt-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/ug_udt/index.html" target="_blank">Link</a> |
 | Vietnamese | vtb | Lương Nguyễn Thị, Linh Hà Mỹ, Phương Lê Hồng, Huyền Nguyễn Thị Minh | The Vietnamese UD treebank is a conversion of the constituent treebank created in the VLSP project. | vi_vtb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/vi_vtb/index.html" target="_blank">Link</a> |
 | Wolof | wtb | Bamba Dione | UD_Wolof-WTB is a natively manual developed treebank for Wolof. | wo_wtb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/wo_wtb/index.html" target="_blank">Link</a> |
+
+## Acknowledgements
+
+The models were trained using [UDpipe R
+package](https://CRAN.R-project.org/package=udpipe) on [Universal
+Dependencies 2.15 treebanks](https://universaldependencies.org/).
 
 ## Structure
 

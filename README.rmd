@@ -1,5 +1,5 @@
 ---
-title: "Pre-Trained Annotation Models for Tall"
+title: "Pre-Trained Annotation Models for TALL"
 output: github_document
 ---
 
@@ -285,6 +285,12 @@ df %>%
   kable("markdown", col.names = c("Language", "Treebank", "Contributors", "Description", "File", "Link")) 
 
 ```
+
+
+## Acknowledgements
+
+The models were trained using [UDpipe R package](https://CRAN.R-project.org/package=udpipe) on [Universal Dependencies 2.15 treebanks](https://universaldependencies.org/).
+
 
 ## Structure
 
