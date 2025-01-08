@@ -148,8 +148,8 @@ on data from version 2.15.
 ## Model Accuracy
 
 We present the tokenizer, tagger, lemmatizer and parser performance,
-measured on the testing portion of the data, evaluated using the gold
-tokenization. The results are F1 scores
+measured on the testing portion of the data, evaluated on the raw text.
+The results are F1 scores
 
 | Language | Treebank | Words | Sentences | UPOS | XPOS | UFeats | AllTags | Lemma | UAS | LAS |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
