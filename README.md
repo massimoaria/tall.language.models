@@ -73,7 +73,6 @@ on data from version 2.15.
 | French | ParTUT | Cristina Bosco, Manuela Sanguinetti | UD_French-ParTUT is a conversion of a multilingual parallel treebank developed at the University of Turin, | fr_partut-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/fr_partut/index.html" target="_blank">Link</a> |
 | French | Sequoia | Marie Candito, Djamé Seddah, Guy Perrier, Bruno Guillaume | **UD_French-Sequoia** is an automatic conversion of the [SUD_French-Sequoia](https://github.com/surfacesyntacticud/SUD_French-Sequoia) treebank, which comes from the former corpus [French Sequoia corpus](http://deep-sequoia.inria.fr). | fr_sequoia-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/fr_sequoia/index.html" target="_blank">Link</a> |
 | German | GSD | Slav Petrov, Wolfgang Seeker, Ryan McDonald, Joakim Nivre, Daniel Zeman, Adriane Boyd | The German UD is converted from the content head version of the \[universal | de_gsd-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/de_gsd/index.html" target="_blank">Link</a> |
-| German | HDT | Emanuel Borges Völker, Felix Hennig, Arne Köhn, Maximilan Wendt, Verena Blaschke, Nina Böbel, Leonie Weissweiler | UD German-HDT is a conversion of the Hamburg Dependency Treebank, created at the University of Hamburg through manual annotation in conjunction with a standard for morphologically and syntactically annotating sentences as well as a constraint-based parser. | de_hdt-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/de_hdt/index.html" target="_blank">Link</a> |
 | Chinese | GSD | Mo Shen, Ryan McDonald, Daniel Zeman, Peng Qi | Traditional Chinese Universal Dependencies Treebank annotated and converted by | zh_gsd-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/zh_gsd/index.html" target="_blank">Link</a> |
 | Chinese | GSDSimp | Peng Qi, Koichi Yasuoka | Simplified Chinese Universal Dependencies dataset converted from the GSD (traditional) dataset with manual corrections. | zh_gsdsimp-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/zh_gsdsimp/index.html" target="_blank">Link</a> |
 | Afrikaans | AfriBooms | Peter Dirix, Liesbeth Augustinus, Daniel van Niekerk | UD Afrikaans-AfriBooms is a conversion of the AfriBooms Dependency Treebank, originally annotated with a simplified PoS set and dependency relations according to a subset of the Stanford tag set. The corpus consists of public government documents. | af_afribooms-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/af_afribooms/index.html" target="_blank">Link</a> |
@@ -100,7 +99,6 @@ on data from version 2.15.
 | Finnish | FTB | Jussi Piitulainen, Hanna Nurmi, Jack Rueter | FinnTreeBank 1 consists of manually annotated grammatical examples | fi_ftb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/fi_ftb/index.html" target="_blank">Link</a> |
 | Finnish | TDT | Filip Ginter, Jenna Kanerva, Veronika Laippala, Niko Miekka, Anna Missilä, Stina Ojala, Sampo Pyysalo | UD_Finnish-TDT is based on the Turku Dependency Treebank (TDT), a broad-coverage dependency treebank of general Finnish covering numerous genres. The conversion to UD was followed by extensive manual checks and corrections, and the treebank closely adheres to the UD guidelines. | fi_tdt-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/fi_tdt/index.html" target="_blank">Link</a> |
 | Galician | CTG | Xavier Gómez Guinovart | The Galician UD treebank is based on the automatic parsing of the Galician Technical Corpus (<http://sli.uvigo.gal/CTG>) created at the University of Vigo by the the TALG NLP research group. | gl_ctg-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/gl_ctg/index.html" target="_blank">Link</a> |
-| Galician | TreeGal | Marcos Garcia, Xulia Sánchez-Rodríguez | The Galician-TreeGal is a treebank for Galician developed at LyS Group (Universidade da Coruña) and at CiTIUS (Universidade de Santiago de Compostela). | gl_treegal-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/gl_treegal/index.html" target="_blank">Link</a> |
 | Gothic | PROIEL | Dag Haug | The UD Gothic treebank is based on the Gothic data from the PROIEL treebank, and consists of Wulfila’s Bible translation. | got_proiel-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/got_proiel/index.html" target="_blank">Link</a> |
 | Greek | GDT | Prokopis Prokopidis | The Greek UD treebank (UD_Greek-GDT) is derived from the Greek Dependency Treebank | el_gdt-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/el_gdt/index.html" target="_blank">Link</a> |
 | Hebrew | HTB | Yoav Goldberg, Reut Tsarfaty, Amir More, Shoval Sadde, Victoria Basmov, Yuval Pinter | A Universal Dependencies Corpus for Hebrew. | he_htb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/he_htb/index.html" target="_blank">Link</a> |
@@ -112,7 +110,6 @@ on data from version 2.15.
 | Korean | GSD | Ryan McDonald, Joakim Nivre, Daniel Zeman, Jinho Choi, Na-Rae Han, Jena Hwang, Jayeol Chun | The Google Korean Universal Dependency Treebank is first converted from the \[Universal | ko_gsd-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/ko_gsd/index.html" target="_blank">Link</a> |
 | Korean | Kaist | Jinho Choi, Na-Rae Han, Jena Hwang, Jayeol Chun | The KAIST Korean Universal Dependency Treebank is generated by Chun et al., 2018 from the constituency trees in the [KAIST Tree-Tagging Corpus](http://semanticweb.kaist.ac.kr/home/index.php/Corpus4). | ko_kaist-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/ko_kaist/index.html" target="_blank">Link</a> |
 | Latin | ITTB | Marco Passarotti, Marinella Testori, Daniel Zeman, Berta González Saavedra, Flavio Massimiliano Cecchini | Latin data from the *Index Thomisticus* Treebank. Data are taken from the *Index Thomisticus* corpus by Roberto Busa SJ, which contains the complete work by Thomas Aquinas (1225–1274; Medieval Latin) and by 61 other authors related to Thomas. | la_ittb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/la_ittb/index.html" target="_blank">Link</a> |
-| Latin | Perseus | Giuseppe G. A. Celano, Daniel Zeman, Federica Gamba | This Universal Dependencies Latin Treebank consists of an automatic conversion of a selection of passages from the Ancient Greek and Latin Dependency Treebank 2.1 | la_perseus-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/la_perseus/index.html" target="_blank">Link</a> |
 | Latin | PROIEL | Dag Haug | The Latin PROIEL treebank is based on the Latin data from the PROIEL treebank, and contains most of the Vulgate New Testament translations plus selections from Caesar’s Gallic War, Cicero’s Letters to Atticus, Palladius’ Opus Agriculturae and the first book of Cicero’s De officiis. | la_proiel-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/la_proiel/index.html" target="_blank">Link</a> |
 | Latvian | LVTB | Lauma Pretkalniņa, Laura Rituma, Gunta Nešpore-Bērzkalne, Baiba Saulīte, Artūrs Znotiņš, Normunds Grūzītis | Latvian UD Treebank is based on Latvian Treebank ([LVTB](http://sintakse.korpuss.lv)), being created at University of Latvia, Institute of Mathematics and Computer Science, [Artificial Intelligence Laboratory](http://ailab.lv). | lv_lvtb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/lv_lvtb/index.html" target="_blank">Link</a> |
 | Lithuanian | ALKSNIS | Andrius Utka, Erika Rimkutė, Agnė Bielinskienė, Jolanta Kovalevskaitė, Loïc Boizou, Gabrielė Aleksandravičiūtė, Kristina Brokaitė, Daniel Zeman, Natalia Perkova, Bernadeta Griciūtė | The Lithuanian dependency treebank ALKSNIS v3.0 (Vytautas Magnus University). | lt_alksnis-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/lt_alksnis/index.html" target="_blank">Link</a> |
@@ -148,6 +145,101 @@ on data from version 2.15.
 | Vietnamese | VTB | Lương Nguyễn Thị, Linh Hà Mỹ, Phương Lê Hồng, Huyền Nguyễn Thị Minh | The Vietnamese UD treebank is a conversion of the constituent treebank created in the VLSP project | vi_vtb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/vi_vtb/index.html" target="_blank">Link</a> |
 | Wolof | WTB | Bamba Dione | UD_Wolof-WTB is a natively manual developed treebank for Wolof. Sentences were collected from encyclopedic, fictional, biographical, religious texts and news. | wo_wtb-ud-2.15.udpipe | <a href="https://universaldependencies.org/treebanks/wo_wtb/index.html" target="_blank">Link</a> |
 
+## Model Accuracy
+
+We present the tokenizer, tagger, lemmatizer and parser performance,
+measured on the testing portion of the data, evaluated using the gold
+tokenization. The results are F1 scores
+
+| Language | Treebank | Words | Sentences | UPOS | XPOS | UFeats | AllTags | Lemma | UAS | LAS |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| Afrikaans | AfriBooms | 99.93% | 99.65% | 95.79% | 91.39% | 93.67% | 91.26% | 96.40% | 82.55% | 77.97% |
+| Arabic | PADT | 94.51% | 81.43% | 88.91% | 82.35% | 82.44% | 82.16% | 87.36% | 67.64% | 62.60% |
+| Belarusian | HSE | 99.28% | 84.80% | 96.07% | 95.40% | 88.30% | 87.69% | 88.77% | 77.08% | 73.45% |
+| Bulgarian | BTB | 99.92% | 94.67% | 98.01% | 94.72% | 95.77% | 94.39% | 92.88% | 87.98% | 83.52% |
+| Catalan | AnCora | 99.94% | 99.08% | 98.22% | 95.04% | 97.68% | 94.83% | 98.19% | 86.97% | 83.75% |
+| Coptic | Scriptorium | 75.38% | 30.20% | 72.69% | 72.55% | 72.88% | 71.87% | 73.30% | 50.32% | 48.26% |
+| Czech | CAC | 99.96% | 99.76% | 98.56% | 90.88% | 89.58% | 89.45% | 96.24% | 84.81% | 81.13% |
+| Czech | CLTT | 99.37% | 93.79% | 94.87% | 82.33% | 82.64% | 82.23% | 92.93% | 72.06% | 67.99% |
+| Czech | FicTree | 99.99% | 97.56% | 97.60% | 90.26% | 90.96% | 90.14% | 95.60% | 84.95% | 80.79% |
+| Czech | PDT | 99.91% | 91.91% | 98.63% | 93.12% | 93.21% | 92.83% | 97.50% | 83.49% | 80.18% |
+| Old Church Slavonic | PROIEL | 100.00% | 34.43% | 91.36% | 91.63% | 82.50% | 80.73% | 81.73% | 66.17% | 59.74% |
+| Danish | DDT | 99.93% | 89.92% | 95.24% | 99.92% | 94.48% | 93.22% | 94.46% | 77.57% | 73.77% |
+| German | GSD | 99.56% | 78.69% | 64.12% | 64.29% | 53.65% | 50.34% | 86.07% | 71.43% | 65.53% |
+| Greek | GDT | 99.89% | 89.51% | 95.13% | 95.13% | 89.96% | 88.75% | 92.74% | 83.36% | 79.58% |
+| English | EWT | 99.14% | 86.17% | 94.10% | 93.23% | 94.37% | 91.61% | 95.15% | 81.03% | 77.64% |
+| English | GUM | 99.57% | 95.07% | 95.77% | 95.32% | 95.10% | 93.69% | 96.55% | 81.52% | 78.18% |
+| English | LinES | 99.94% | 87.88% | 95.07% | 94.08% | 94.94% | 91.84% | 95.78% | 81.11% | 76.60% |
+| English | ParTUT | 99.78% | 99.02% | 94.30% | 93.86% | 94.21% | 92.45% | 94.76% | 82.15% | 78.75% |
+| Spanish | AnCora | 99.94% | 97.92% | 98.25% | 94.92% | 97.94% | 94.54% | 98.17% | 85.23% | 81.52% |
+| Spanish | GSD | 99.72% | 94.54% | 95.49% | 99.72% | 95.97% | 93.55% | 94.08% | 83.40% | 79.41% |
+| Estonian | EDT | 99.88% | 89.81% | 95.45% | 96.80% | 93.71% | 92.15% | 87.93% | 77.08% | 73.13% |
+| Estonian | EWT | 98.95% | 75.16% | 88.85% | 91.47% | 86.94% | 83.72% | 84.30% | 66.96% | 60.45% |
+| Basque | BDT | 99.98% | 99.42% | 92.43% | 99.98% | 87.17% | 84.68% | 91.09% | 74.57% | 69.35% |
+| Persian | Seraji | 99.65% | 98.00% | 96.02% | 95.78% | 95.92% | 95.31% | 92.74% | 79.98% | 75.19% |
+| Finnish | FTB | 99.99% | 86.93% | 92.01% | 90.74% | 92.21% | 89.00% | 85.76% | 77.89% | 72.65% |
+| Finnish | TDT | 99.68% | 85.59% | 94.28% | 95.43% | 90.54% | 89.50% | 84.52% | 76.79% | 72.74% |
+| French | GSD | 98.89% | 93.45% | 96.24% | 98.89% | 95.34% | 94.51% | 96.78% | 86.39% | 83.00% |
+| French | ParTUT | 99.41% | 98.64% | 95.26% | 94.69% | 92.58% | 91.12% | 95.84% | 85.33% | 82.11% |
+| French | Sequoia | 99.09% | 85.01% | 96.42% | 99.09% | 94.91% | 94.17% | 96.60% | 84.69% | 81.63% |
+| Irish | IDT | 99.67% | 97.57% | 93.43% | 92.20% | 84.15% | 81.76% | 91.96% | 80.52% | 72.83% |
+| Scottish Gaelic | ARCOSG | 97.39% | 56.07% | 91.38% | 83.27% | 85.18% | 82.49% | 91.33% | 74.56% | 68.31% |
+| Galician | CTG | 99.14% | 94.80% | 96.23% | 95.80% | 98.92% | 95.38% | 95.18% | 75.72% | 72.53% |
+| Gothic | PROIEL | 100.00% | 28.25% | 93.73% | 94.20% | 86.76% | 84.55% | 89.51% | 70.88% | 63.47% |
+| Ancient Greek | Perseus | 99.98% | 98.73% | 81.44% | 71.34% | 84.62% | 71.24% | 79.90% | 58.70% | 51.74% |
+| Ancient Greek | PROIEL | 100.00% | 45.89% | 95.34% | 95.65% | 87.71% | 86.28% | 90.77% | 68.94% | 63.73% |
+| Hebrew | HTB | 85.08% | 99.69% | 80.84% | 80.84% | 78.57% | 77.75% | 79.01% | 59.74% | 56.38% |
+| Hindi | HDTB | 99.99% | 97.69% | 95.84% | 94.91% | 90.17% | 87.68% | 98.05% | 90.44% | 85.86% |
+| Croatian | SET | 99.91% | 93.54% | 96.67% | 89.99% | 90.59% | 89.95% | 93.30% | 82.08% | 77.39% |
+| Hungarian | Szeged | 99.69% | 94.48% | 90.96% | 99.69% | 87.20% | 85.84% | 87.29% | 70.59% | 64.95% |
+| Armenian | ArmTDP | 99.38% | 97.28% | 92.39% | 99.38% | 83.70% | 82.79% | 90.83% | 75.17% | 67.58% |
+| Indonesian | GSD | 99.45% | 90.47% | 93.22% | 91.90% | 94.17% | 86.65% | 87.32% | 80.88% | 74.29% |
+| Italian | ISDT | 99.80% | 96.59% | 97.24% | 97.11% | 97.12% | 96.33% | 96.98% | 87.46% | 84.47% |
+| Italian | ParTUT | 99.70% | 99.02% | 96.73% | 96.37% | 96.40% | 95.19% | 96.35% | 86.26% | 83.08% |
+| Italian | PoSTWITA | 99.36% | 24.37% | 94.25% | 93.88% | 94.26% | 92.50% | 93.84% | 72.70% | 67.74% |
+| Italian | TWITTIRO | 99.02% | 28.57% | 90.37% | 89.60% | 90.00% | 87.00% | 89.43% | 70.77% | 64.11% |
+| Italian | VIT | 99.75% | 96.73% | 96.38% | 95.37% | 96.33% | 94.18% | 96.52% | 81.76% | 77.58% |
+| Japanese | GSD | 95.77% | 99.45% | 93.50% | 92.80% | 95.75% | 92.30% | 94.21% | 84.20% | 82.36% |
+| Korean | GSD | 99.85% | 93.63% | 91.40% | 81.07% | 99.50% | 78.74% | 86.96% | 60.94% | 51.64% |
+| Korean | Kaist | 99.99% | 100.00% | 92.95% | 80.41% | 99.99% | 80.41% | 88.12% | 72.96% | 61.60% |
+| Latin | ITTB | 99.97% | 92.53% | 98.42% | 93.26% | 93.98% | 92.63% | 98.04% | 79.31% | 75.58% |
+| Latin | PROIEL | 99.99% | 28.48% | 94.53% | 94.73% | 86.89% | 85.59% | 91.73% | 63.36% | 57.80% |
+| Lithuanian | ALKSNIS | 99.95% | 87.75% | 90.37% | 81.26% | 82.42% | 80.88% | 86.89% | 65.80% | 59.65% |
+| Lithuanian | HSE | 97.65% | 92.04% | 71.39% | 70.36% | 66.42% | 60.98% | 68.95% | 43.34% | 31.05% |
+| Latvian | LVTB | 99.23% | 99.06% | 95.23% | 87.53% | 91.82% | 87.48% | 93.35% | 78.23% | 73.52% |
+| Classical Chinese | Kyoto | 97.70% | 42.03% | 87.70% | 87.29% | 88.09% | 84.79% | 97.46% | 65.90% | 60.15% |
+| Marathi | UFAL | 95.27% | 81.19% | 78.79% | 95.27% | 70.06% | 67.88% | 83.15% | 62.55% | 51.15% |
+| Maltese | MUDT | 99.79% | 82.32% | 93.79% | 93.49% | 99.79% | 93.20% | 99.79% | 75.31% | 68.95% |
+| Dutch | Alpino | 99.59% | 89.99% | 94.18% | 91.51% | 93.28% | 90.78% | 90.82% | 78.21% | 73.20% |
+| Dutch | LassySmall | 99.83% | 81.93% | 94.79% | 92.21% | 93.95% | 91.41% | 92.16% | 80.11% | 75.79% |
+| Norwegian | Bokmaal | 99.82% | 97.34% | 96.39% | 97.70% | 95.06% | 93.74% | 96.04% | 85.36% | 82.30% |
+| Norwegian | Nynorsk | 99.90% | 92.74% | 95.92% | 97.30% | 94.93% | 93.29% | 95.47% | 83.85% | 80.62% |
+| Polish | LFG | 99.86% | 99.83% | 96.86% | 87.18% | 87.48% | 86.56% | 92.56% | 90.64% | 86.73% |
+| Polish | PDB | 99.85% | 96.06% | 97.30% | 88.49% | 88.84% | 87.88% | 94.28% | 84.74% | 80.83% |
+| Portuguese | Bosque | 99.67% | 89.56% | 96.12% | 99.67% | 94.07% | 92.66% | 96.50% | 83.83% | 79.97% |
+| Portuguese | GSD | 99.27% | 87.99% | 95.58% | 82.76% | 91.78% | 82.58% | 91.72% | 82.18% | 78.52% |
+| Romanian | Nonstandard | 98.88% | 96.92% | 94.94% | 90.06% | 88.31% | 87.67% | 91.61% | 81.26% | 75.55% |
+| Romanian | RRT | 99.68% | 94.01% | 96.91% | 95.94% | 96.09% | 95.83% | 95.16% | 82.69% | 77.96% |
+| Russian | GSD | 99.53% | 97.41% | 95.00% | 94.74% | 85.57% | 84.50% | 89.90% | 81.58% | 76.41% |
+| Russian | SynTagRus | 99.57% | 97.55% | 97.42% | 99.57% | 90.50% | 90.11% | 95.24% | 83.19% | 79.37% |
+| Russian | Taiga | 98.74% | 84.37% | 93.42% | 98.74% | 86.33% | 85.42% | 89.54% | 72.77% | 67.12% |
+| Slovak | SNK | 100.00% | 77.73% | 92.98% | 77.04% | 79.32% | 76.77% | 83.32% | 78.84% | 74.61% |
+| Slovenian | SSJ | 99.89% | 99.07% | 96.78% | 90.26% | 90.53% | 89.80% | 95.04% | 84.17% | 80.51% |
+| Slovenian | SST | 100.00% | 93.73% | 94.83% | 88.51% | 88.67% | 87.49% | 94.84% | 70.58% | 65.41% |
+| Serbian | SET | 100.00% | 93.84% | 97.36% | 90.76% | 91.10% | 90.73% | 93.40% | 84.90% | 80.63% |
+| Swedish | LinES | 99.96% | 86.83% | 94.67% | 91.95% | 90.11% | 86.66% | 94.50% | 81.31% | 76.54% |
+| Swedish | Talbanken | 99.91% | 94.20% | 95.71% | 93.90% | 94.18% | 92.43% | 95.13% | 81.51% | 77.23% |
+| Tamil | TTB | 94.93% | 95.08% | 78.41% | 76.99% | 79.37% | 72.93% | 82.41% | 59.66% | 49.62% |
+| Telugu | MTG | 100.00% | 98.98% | 90.29% | 90.29% | 98.89% | 90.29% | 100.00% | 87.93% | 75.45% |
+| Turkish | IMST | 97.60% | 97.51% | 88.85% | 88.54% | 84.31% | 81.58% | 85.77% | 61.37% | 52.36% |
+| Uyghur | UDT | 99.74% | 82.17% | 88.80% | 90.12% | 83.63% | 76.78% | 83.47% | 67.06% | 53.01% |
+| Ukrainian | IU | 99.71% | 96.71% | 94.85% | 84.03% | 83.67% | 82.86% | 91.39% | 77.54% | 72.78% |
+| Urdu | UDTB | 99.99% | 97.12% | 91.53% | 89.00% | 80.26% | 75.43% | 91.47% | 81.25% | 74.23% |
+| Vietnamese | VTB | 85.11% | 97.02% | 76.10% | 75.07% | 85.11% | 75.04% | 83.66% | 47.83% | 40.71% |
+| Wolof | WTB | 99.16% | 90.27% | 91.73% | 91.42% | 90.89% | 88.62% | 92.81% | 75.18% | 69.40% |
+| Chinese | GSD | 89.89% | 98.80% | 82.84% | 83.56% | 88.57% | 82.30% | 89.83% | 58.96% | 55.27% |
+| Chinese | GSDSimp | 89.05% | 98.80% | 82.28% | 82.98% | 87.79% | 81.76% | 89.00% | 58.27% | 54.47% |
+
 ## Acknowledgements
 
 The models were trained using [UDpipe R
@@ -161,6 +253,7 @@ The repository is organized as follows:
 - **`2.15/`**: Contains pre-trained `udpipe` models for individual
   languages. Each model file is named according to the corresponding
   language and the version of the Universal Dependencies data used.
+- **`data/`**: Contains rdata files to build up tables in README.
 - **`README.rmd`**: This document provides an overview of the
   repository’s contents and purpose (rmarkdown format).
 - **`README.md`**: This document provides an overview of the
