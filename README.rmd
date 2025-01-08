@@ -55,7 +55,7 @@ df %>%
 
 ## Model Accuracy
 
-We present the tokenizer, tagger, lemmatizer and parser performance, measured on the testing portion of the data, evaluated on the raw text. The results are F1 scores
+We present the tokenizer, tagger, lemmatizer and parser performance, measured on the testing portion of the data, evaluated on the raw text. The results are F1 scores.
 
 ```{r, echo=FALSE, results="asis"}
 load("data/model_accuracy.rdata")
