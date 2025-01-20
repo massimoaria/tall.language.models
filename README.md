@@ -21,11 +21,19 @@ pre-trained annotation models. Built-in udpipe models are based on
 Universal Dependencies (UD) version 2.5 and had not been updated in some
 time.
 
-This repository, `udpipe.models`, provides updated pre-trained NLP
-language models, trained on gold standard annotated corpora from the
+This repository, `tall.language.models`, provides updated pre-trained
+NLP language models, trained on gold standard annotated corpora from the
 [Universal Dependencies](https://universaldependencies.org/) (UD)
 project, version 2.15, using the `udpipe` R package ([CRAN
 link](https://CRAN.R-project.org/package=udpipe)).
+
+Additionally, the repository now includes:
+
+- Example datasets in the sample.data folder, which can be used to test
+  and explore TALL functionalities.
+- Lexicon datasets in the lexicon.data folder, providing additional
+  resources for linguistic analysis and enrichment of textual data in
+  TALL.
 
 The models are intended for use in Natural Language Processing (NLP)
 tasks, including tokenization, parsing, and tagging. This repository
@@ -42,6 +50,8 @@ The primary objectives of this repository are:
   these models readily available.
 - To support projects that use Universal Dependencies data for
   tokenization, parsing, and tagging tasks in R and other environments.
+- To enrich TALL’s text analysis capabilities by providing example and
+  lexicon datasets for hands-on testing and experimentation.
 
 ## Data Source
 
@@ -254,6 +264,10 @@ The repository is organized as follows:
   languages. Each model file is named according to the corresponding
   language and the version of the Universal Dependencies data used.
 - **`data/`**: Contains rdata files to build up tables in README.
+- **`sample.data/`**: Contains example datasets that can be used to test
+  and explore TALL functionalities.
+- **`lexicon.data/`**: Contains lexicon datasets for linguistic analysis
+  and text enrichment tasks in TALL.
 - **`README.rmd`**: This document provides an overview of the
   repository’s contents and purpose (rmarkdown format).
 - **`README.md`**: This document provides an overview of the
