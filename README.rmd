@@ -56,6 +56,7 @@ df %>%
   mutate(file = paste0(file,"-ud-2.15.udpipe"),
   language_name = tools::toTitleCase(gsub("_"," ",language_name))) %>%
   arrange(language_name,treebank) %>% 
+  select(language_name,treebank,contributors,description,file, hub_page_link) %>% 
   kable("markdown", col.names = c("Language", "Treebank", "Contributors", "Description", "File", "Link")) 
 
 ```
@@ -70,7 +71,6 @@ load("data/model_accuracy.rdata")
 
 row.names(accuracy) <- NULL
 accuracy %>% 
-  select(-file) %>%
   arrange(Language,Treebank) %>% 
   kable("markdown")
 ```
