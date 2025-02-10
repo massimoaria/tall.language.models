@@ -13,6 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+
 ## Overview
 
 **TALL - *Text Analysis for ALL*** (https://github.com/massimoaria/tall) is an R Shiny application that provides a comprehensive suite of methodologies for various text analysis tasks. It is designed to meet the needs of researchers who may lack extensive programming skills, offering a versatile and user-friendly tool for analyzing textual data. With TALL, users can apply a wide range of text analysis techniques, making it easier to extract valuable insights from textual data in an efficient and accessible manner.
@@ -71,6 +72,7 @@ load("data/model_accuracy.rdata")
 
 row.names(accuracy) <- NULL
 accuracy %>% 
+  mutate(Language = tools::toTitleCase(gsub("_"," ",Language))) %>% 
   arrange(Language,Treebank) %>% 
   kable("markdown")
 ```
